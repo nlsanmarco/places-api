@@ -1,0 +1,28 @@
+### Places Index
+GET http://localhost:3000/places
+Content-Type: application/json
+
+### Places Create
+POST http://localhost:3000/places
+Content-Type: application/json
+
+{
+  "name": "Chattanooga Airport",
+  "address": "1001 Airport Rd, Chattanooga, TN 37421"
+}
+
+### Places Show
+GET http://localhost:3000/places/3
+Content-Type: application/json
+
+### Places Update
+PATCH http://localhost:3000/places/5
+Content-Type: application/json
+
+{
+  "name": "Chattanooga Municipal Airport"
+}
+
+### Places Destroy
+DELETE http://localhost:3000/places/5
+Content-Type: application/json
